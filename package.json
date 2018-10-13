@@ -11,5 +11,5 @@
     "test": "./node_modules/.bin/mocha --reporter spec"
   },
   "author": "Pierre Salaun",
-  "license": "none"
+  "license": "ISC"
 }
