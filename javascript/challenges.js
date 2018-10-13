@@ -21,4 +21,10 @@ exports.kthElement = function (list, index) {
 
 exports.length = function(list) {
   return list.length;
-}
+};
+
+// Exercice 5 - Reverse a list
+
+exports.reverseList = function(list) {
+  return list.reverse();
+};

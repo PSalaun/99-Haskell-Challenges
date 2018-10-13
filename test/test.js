@@ -48,3 +48,14 @@ describe("4 - Find the number of elements of a list", function() {
     expect(letters).to.equal(0);
   });
 });
+
+describe("5 - reverse a list", function() {
+  it("returns a reversed list of digits", function() {
+    let digits = challenges.reverseList([1, 2, 3, 4, 5]);
+    expect(digits).to.deep.equal([5, 4, 3, 2, 1]);
+  });
+  it("returns a reversed list of letters", function() {
+    let letters = challenges.reverseList(["a", "b", "c"]);
+    expect(letters).to.deep.equal(["c", "b", "a"]);
+  });
+});
