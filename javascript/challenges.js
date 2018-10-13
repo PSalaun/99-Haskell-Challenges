@@ -10,3 +10,10 @@ exports.lastElement = function (list) {
 exports.lastButOneElement = function (list) {
   return list[list.length - 2];
 };
+
+// Exercice 3 - Find the K'th element of a list
+
+exports.kthElement = function (list, index) {
+  return list[index - 1];
+};
+
