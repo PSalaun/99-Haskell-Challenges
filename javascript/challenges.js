@@ -17,3 +17,8 @@ exports.kthElement = function (list, index) {
   return list[index - 1];
 };
 
+// Exercice 4 - Find the number of elements of a list
+
+exports.length = function(list) {
+  return list.length;
+}

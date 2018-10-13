@@ -24,11 +24,11 @@ describe("2 - Find the last but one element of a list", function() {
 });
 
 describe("3 - Find the K'th element of a list. The first element in the list is number 1", function() {
-  it("returns the last but one element of a list of digits", function() {
+  it("returns the second element of a list of 5 digits", function() {
     let digits = challenges.kthElement([1, 2, 3, 4, 5], 2);
     expect(digits).to.equal(2);
   });
-  it("returns the last but one element of a list of letters", function() {
+  it("returns the third element of a list of 5 letters", function() {
     let letters = challenges.kthElement(["a", "b", "c", "d", "abcdef"], 3);
     expect(letters).to.equal("c");
   });
@@ -37,7 +37,7 @@ describe("3 - Find the K'th element of a list. The first element in the list is 
 describe("4 - Find the number of elements of a list", function() {
   it("returns the length of a list of digits", function() {
     let digits = challenges.length([1, 2, 3, 4, 5]);
-    expect(digits).to.equal(2);
+    expect(digits).to.equal(5);
   });
   it("returns the length of a list of words", function() {
     let letters = challenges.length(["a", "b", "c"]);
