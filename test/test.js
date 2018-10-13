@@ -58,4 +58,8 @@ describe("5 - reverse a list", function() {
     let letters = challenges.reverseList(["a", "b", "c"]);
     expect(letters).to.deep.equal(["c", "b", "a"]);
   });
+  it("returns the 'same' list if it is a palindrome", function() {
+    let palindrome = challenges.reverseList(["a", "b", "c", "b", "a"]);
+    expect(palindrome).to.deep.equal(["a", "b", "c", "b", "a"]);
+  });
 });
